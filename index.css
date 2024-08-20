@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Source sans;
+font-size: 1.125rem;
+}
+.parent{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    /* width: 50vw; */
+}
+strong{
+    color: red;
+}
+
+.son1{
+    width: 50%;
+    background-color: rgba(63, 59, 59, 0.158);
+    background-image: url(bbq.jpeg);
+    background-blend-mode: multiply;
+    color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-between;
+}
+
+.son2{
+    width: 50%;
+    text-align: center;
+    margin: auto 0;
+    /* background-color: blue; */
+    
+}
+strong{
+    font-size: 3.5rem;
+}
+h1{
+    
+    font-weight: 300;
+}
+.top-text{
+   margin: 0 auto;
+   padding: 0%;
+   /* border: 1px solid black; */
+    width: 30%;
+    border-top: 0.5em  #f18119 solid;
+    order: -1;
+    text-transform: uppercase;
+    color: #f18119;
+    font-size: 0.625rem;
+
+}
+.son1 h1{
+    color: rgb(197, 196, 196);
+    width: 50%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.sub-container{
+   margin: 0 auto;
+width: 90%;
+/* border: 1px solid black; */
+}
+#bbq{
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: #404040;
+   
+}
+#register{
+    color: #f18119;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.form{
+    margin: 0 auto;
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+
+}
+.input{
+    margin-top: 1em ;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 900;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+
+
+}
+.btn{
+    
+    /* background-color: linear-gradient(to left ,#f18119,#ff713f); */
+    background:linear-gradient(to left,#ff713f,#f18119);
+    margin-top: 1em ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+    transform:scale(1);
+    
+}
+.btn-primary{
+    text-transform: uppercase;
+    transition:color scale(500ms) ;
+   
+}
+.btn:hover{
+    color: #404040;
+    transform:scale(1.1);
+}
+.info{
+    width: 40%;
+    /* border: 1px solid black ; */
+    margin: 0 auto;
+    font-weight: lighter;
+    margin-top: 1em ;
+    font-size: 0.625rem;
+
+}
